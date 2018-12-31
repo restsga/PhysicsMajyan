@@ -39,7 +39,5 @@ public class Cards : MonoBehaviour {
     public void OnClick(GameObject obj)
     {
         Hand.selectingCard = obj;
-
-        obj.transform.position=new Vector3(0f, 0.2f, 0f);
     }
 }

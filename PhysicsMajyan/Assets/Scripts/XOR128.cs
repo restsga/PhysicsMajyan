@@ -23,8 +23,8 @@ static public class XOR128
         return w;
     }
 
-    static public int Next(int maxvalue)
+    static public int Next(int count)
     {
-        return (int)(Random() % maxvalue);
+        return (int)(Random() % count);
     }
 }

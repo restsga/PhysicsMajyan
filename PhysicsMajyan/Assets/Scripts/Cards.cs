@@ -38,6 +38,6 @@ public class Cards : MonoBehaviour {
 
     public void OnClick(GameObject obj)
     {
-        Hand.selectingCard = obj;
+        Hand.selectingObject = obj;
     }
 }
